@@ -1,0 +1,24 @@
+
+**** Hosting cpanel para que puedas practicar:bbdd
+https://www.fernandosorio.org:2083
+login: fernandosorio
+password: $Fernando$@#
+
+
+
+**** plataforma
+www.fernandosorio.org/panel
+login el de casa editorial
+
+
+
+**** ftp
+Ftp:
+host: file 
+www.fernandosorio.org
+login: fernandosorio
+password: $Fernando$@#
+
+
+
+

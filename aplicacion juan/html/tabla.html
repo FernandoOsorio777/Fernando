@@ -1,0 +1,45 @@
+<!-- class esta en css boostrap y le da el stylo A LA TABLA-->
+<table datatable="ng" dt-options="controladorFer.dtOptions" class="table table-hover table-striped" style="background: white; border: 1px solid #DEDEDE">
+    <!-- LA TABLA -->
+
+    <!-- class esta en css boostrap y le da el stylo A LA TABLA-->
+	<!-- TITULO DE LA TABLA-->
+	<h3><strong> MEDIOS DISPONIBLES</strong></h3>
+   
+    <!-- ENCABEZADO TITULO HORIZONTAL  - TABLA-->
+    <thead style="background: #66CCFF;width: 800px; border: 1px solid #DEDEDE">
+     	   <th style="background: #DEDEDE;width: 30px" >id</th>
+     	   <th style="background: #DEDEDE;width: 50px">tipo</th>
+     	   <th style="background: #DEDEDE;width: 50px">Formato</th>
+     	   <th style="background: #DEDEDE;width: 150px">Tema</th>
+     	   <th style="background: #DEDEDE;width: 250px">Descripción</th>
+     	   <th style="background: #DEDEDE;width: 80px">Fecha Subida</th>
+     	   <!-- <th style="background: #DEDEDE;width: 120px">Imágen Arch.</th> -->
+     	   <th style="background: #DEDEDE;width: 5px"></th>
+     	   <th style="background: #DEDEDE;width: 5px"></th>
+     	   <!-- un th no tiene nada  -->
+    </thead>
+
+    <!-- CUERPO DE LA TABLA-->
+    <tbody> 
+       <!-- es un for recorre lista de los videos  -->
+
+       <!-- REGISTRO O FILA  -->
+       <tr ng-repeat=" for_regx in controladorFer.archivos_filtrados"> 
+
+       	    <!-- CELDA O COLUMNA -->
+       	   <td style="text-align: center">{{ for_regx.id }}</td>
+           <td>{{ for_regx.tipo_archivo }}</td>
+           <td>{{ for_regx.Formato_Archivo }}</td>
+           <td>{{ for_regx.tema }}</td>
+           <td>{{ for_regx.descripcion }}</td>
+           <td style="text-align: center">{{ for_regx.fecha_subida}}</td>
+           <!-- <td><img src="{{for_regx.url_imagen}}" style="width: 15%; hight: 15%"> </td> -->
+           <!-- lapiz <i class="glyphicon glyphicon-pencil" ng-click="editar(for_regx.id)">-->
+           <!-- <img src="img/icono/ver.ico" ng-click="editar(for_regx.id)"> -->
+           <td style="align: center"><a href="" style="color: blue" ng-click="editar(for_regx.id)" title="Descargar">Descargar</td>
+           <td style="align: center"><a href="" style="color: blue" ng-click="descargar(for_regx.id)">Ver</td>
+           
+        </tr>
+    </tbody>
+</table>

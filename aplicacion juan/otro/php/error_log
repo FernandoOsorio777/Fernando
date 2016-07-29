@@ -1,0 +1,21 @@
+[29-Feb-2016 14:29:17 America/New_York] PHP Parse error:  syntax error, unexpected T_IF in /home/fernandosorio/public_html/php/bajar_inform.php on line 5
+[02-Mar-2016 12:25:05 America/New_York] PHP Parse error:  syntax error, unexpected T_IF in /home/fernandosorio/public_html/php/Frm.php on line 3
+[02-Mar-2016 12:25:05 America/New_York] PHP Parse error:  syntax error, unexpected T_IF in /home/fernandosorio/public_html/php/Frm.php on line 3
+[02-Mar-2016 12:27:26 America/New_York] PHP Parse error:  syntax error, unexpected T_IF in /home/fernandosorio/public_html/php/Frm.php on line 3
+[02-Mar-2016 12:27:34 America/New_York] PHP Parse error:  syntax error, unexpected T_IF in /home/fernandosorio/public_html/php/Frm.php on line 3
+[02-Mar-2016 12:27:34 America/New_York] PHP Parse error:  syntax error, unexpected T_IF in /home/fernandosorio/public_html/php/Frm.php on line 3
+[02-Mar-2016 12:29:24 America/New_York] PHP Parse error:  syntax error, unexpected T_IF in /home/fernandosorio/public_html/php/Frm.php on line 3
+[02-Mar-2016 12:30:25 America/New_York] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/fernandosorio/public_html/php/bajar_inform.php:4) in /home/fernandosorio/public_html/php/bajar_inform.php on line 13
+[02-Mar-2016 12:30:25 America/New_York] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fernandosorio/public_html/php/bajar_inform.php:4) in /home/fernandosorio/public_html/php/bajar_inform.php on line 13
+[02-Mar-2016 12:55:50 America/New_York] PHP Parse error:  syntax error, unexpected ':' in /home/fernandosorio/public_html/php/insertar.php on line 4
+[02-Mar-2016 13:27:50 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fernandosorio/public_html/php/insertar.php on line 21
+[02-Mar-2016 13:28:36 America/New_York] PHP Fatal error:  Call to undefined function require_onces() in /home/fernandosorio/public_html/php/insertar.php on line 7
+[02-Mar-2016 14:38:44 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fernandosorio/public_html/php/conexion.php on line 13
+[02-Mar-2016 14:39:55 America/New_York] PHP Fatal error:  Call to undefined function require_onces() in /home/fernandosorio/public_html/php/insertar.php on line 7
+[02-Mar-2016 14:50:14 America/New_York] PHP Fatal error:  Call to undefined function require_onces() in /home/fernandosorio/public_html/php/insertar.php on line 7
+[02-Mar-2016 14:52:29 America/New_York] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/fernandosorio/public_html/php/conectar.php on line 3
+[02-Mar-2016 14:53:51 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fernandosorio/public_html/php/conectar.php on line 5
+[02-Mar-2016 14:57:37 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/fernandosorio/public_html/php/conectar.php on line 5
+[02-Mar-2016 15:18:21 America/New_York] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fernandosorio/public_html/php/Frm.php:2) in /home/fernandosorio/public_html/php/Frm.php on line 2
+[02-Mar-2016 15:18:58 America/New_York] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fernandosorio/public_html/php/Frm.php:2) in /home/fernandosorio/public_html/php/Frm.php on line 2
+[02-Mar-2016 15:20:25 America/New_York] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/fernandosorio/public_html/php/Frm.php:2) in /home/fernandosorio/public_html/php/Frm.php on line 2

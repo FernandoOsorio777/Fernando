@@ -1,0 +1,55 @@
+					
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="../js/angular/angular.js"></script>
+		<script type="text/javascript" src="../js/app_controladores/app_cont_vista_lista.js"></script>
+	</head
+
+	<body class="" ng-app="app_Fernando" ng-controller="ControladorFer">
+
+						<table class="table table-hover table-striped" style="background: white;width: 900px; border: 1px solid #DEDEDE">
+										
+										<!-- TITULO DE LA TABLA-->
+										 <h3><strong> MEDIOS DISPONIBLES</strong></h3>
+                                       
+                                        <!-- ENCABEZADO TITULO HORIZONTAL  - TABLA-->
+			                             <thead style="background: #66CCFF">
+			                             	   <th style="background: #DEDEDE;width: 30px">id</th>
+			                             	   <th style="background: #DEDEDE;width: 50px">tipo</th>
+			                             	   <th style="background: #DEDEDE;width: 150px">Tema</th>
+			                             	   <th style="background: #DEDEDE;width: 300px">Descripción</th>
+			                             	   <th style="background: #DEDEDE;width: 100px">Fecha Subida</th>
+			                             	   <th style="background: #DEDEDE;width: 100px">Imágen Arch.</th>
+			                             	   <!-- un th no tiene nada  -->
+			                             	   <th style="background: #DEDEDE;width: 20px"> </th>
+			                             </thead>
+
+                                
+                                         <!-- CUERPO DE LA TABLA-->
+			                             <tbody> 
+						                               <!-- es un for recorre lista de los videos  -->
+
+						                               <!-- REGISTRO O FILA  -->
+						                               <tr ng-repeat="for_regx in tb_lista_archivos"> 
+
+						                               	    <!-- CELDA O COLUMNA -->
+						                               	   <td style="text-align: center">{{ for_regx.id }}</td>
+						                                   <td>{{ for_regx.tipo_archivo }}</td>
+                                                           <td>{{ for_regx.tema }}</td>
+						                                   <td>{{ for_regx.descripcion }}</td>
+						                                   <td style="text-align: center">{{ for_regx.fecha_subida}}</td>
+						                                   <td><img src="{{for_regx.url_imagen}}" style="width: 15%; hight: 15%"> </td>
+						                                   <!-- lapiz <i class="glyphicon glyphicon-pencil" ng-click="editar(for_regx.id)">-->
+						                                   <!-- <img src="img/icono/ver.ico" ng-click="editar(for_regx.id)"> -->
+						                                   <td style="align: center"><a href="" style="color: blue" ng-click="editar(for_regx.id)">Editar</td>
+                                                           
+						                               </tr>
+
+			                             </tbody>
+
+						</table>
+
+						</body>
+</html>

@@ -1,0 +1,9 @@
+			<div style="position:absolute;top:460px;left:20px">
+				<!-- left, right , bottom aqui esta la posicion div-->
+
+	            No. Pag. (1 al 15)
+	         	<input  type="text" style="width: 50px; text-align: center" onchange="javascript:document.location.href='./Netzaj_490_530_B-'+(parseInt(this.value)+4)+ '.xhtml'" ></input>
+	            
+				<input type="submit" name="pagina" style="width: 60px; background: #CDCCCC; color: black " value="Buscar"></input>
+	            
+	    	</div>

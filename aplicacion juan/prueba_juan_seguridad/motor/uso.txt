@@ -1,0 +1,7 @@
+se correr el motor en 
+url  www.fernandosorio.org/prueba_juan
+se corre archivo.php o
+           motor.php
+
+se visualiza en cefv-ambiente-prueba
+epub/netzaj/--------ons---se visualiza click en el mod que contiene la rutina

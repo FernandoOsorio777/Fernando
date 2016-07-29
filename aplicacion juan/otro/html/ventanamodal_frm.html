@@ -1,0 +1,150 @@
+<? php
+
+if(isset($_GET["boton_env"])) {
+   echo "existe el objeto boton_env";
+
+}
+phpinfo();
+
+?>	
+<?session_start();?>
+<? echo session_id(); ?>
+<DOCTYPE html>
+<html>
+<head>
+	<title>TAREA ATZEL</title>
+	<link rel="stylesheet" type="text/css" href="../css/ventana.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" languaje="javascript" src="../js/validar.js"></script>
+	<script type="text/javascript">
+        function AbrirTelon(){
+        	$(".ventana").slideDown("slow");
+        }
+        function CerrarTelon(){
+        	$(".ventana").slideUp("slow");
+        }
+	</script>
+</head>
+<body>
+
+<div class="container">
+	<!-- crearemos la ventana de 2 nivel en primer nivel tiene la imagen y en el segundo 
+	 tiene el formulario -->
+	<div class="ventana">
+		<h2>Ventana Modal</h2>
+		<!-- dentro de esta background del contenedor ventana transp. crearemos un frm -->
+		<div class="form" style="width:485px">
+			<!-- cierra todo lo que abarque -->
+			
+		         
+				<!-- el frm lo constituye una inf. que esta en una table -->
+				<form class="form1" action="../php/bajar_inform.php" method="GET">
+					<!-- "../php/bajar_inform.php" -->
+					
+                       <p id="p1"><a class="cerrar" href="javascript:CerrarTelon();" >Cerrar x</a></p>
+					   <div id="divimagen"><img id="imagen"src="../img/kehila.jpg" style="width:55px"></div><br>
+					    <div id="divtitulo"><h1 id ="h12">Formulario PASTORES</h1></div>
+					    
+		                <hr color="red"><br>
+						<table >
+							<tr>
+								<td>Nombre&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="text" name="nombre" placeholder=" Ingresa Aqui tu Nombre " title="Diligencia Nombre"></td>
+							</tr>
+							<!-- *** -->
+							<tr>
+								<td>Apellido&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="text" name="apellido" placeholder=" " title="Diligencia Apellido"></td>
+								
+							</tr>
+							<tr>
+								<td>Cedula&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="text"  name="cedula" placeholder=" " title="Diligencia Cedula" ></td>
+							</tr>
+							<tr>
+							     <td>Genero&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+							     <td ><input type="checkbox" name="genero" name="genero" value="1" checked="checked">&nbsp;&nbsp;&nbsp;&nbsp;Masculino</td>
+							     <td ><input type="checkbox" name="genero" value="1" >Femenino</td>
+							</tr>
+							
+							
+							<tr>
+								<td>Edad&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="number" name="edad" min="10" max="50" step="10" placeholder=" " title="Diligencia Edad"  ></td>
+							</tr>
+                            <tr>
+								<td>Direccion&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="text" name="direccion" placeholder=" " title="Diligencia Direccion" ></td>
+							</tr>
+                            <td>Departamento&nbsp;:&nbsp;</td>
+                            <td >
+									<select >
+
+											<option  value="---">Seleccione Departamento</option>										                      			
+											 <option  value="1">Valle</option>
+											 <option value="2">Cundinamarca</option>
+											                      			
+
+									</select>		
+							</td>
+
+                            <td>&nbsp;&nbsp;Municipio&nbsp;</td>
+
+                            
+                            <td >
+
+									<select type="LISTBOX" name="municipo">
+
+											<option  value="---">Municipio</option>										                      			
+											 <option  value="CALI">Cali</option>
+											 <option value="YUMBO">Yumbo</option>
+											                      			
+
+									</select>	
+
+									<input type="hidden" name="hidden1" >	
+
+							</td>
+
+							<tr>
+								<td>Celular&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="text" name="celular" placeholder=" " title="Diligencia Celular"  ></td>
+							</tr>
+							<tr>
+								<td>Email&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="email" name="email" placeholder=" " title="Diligencia Email Valido"  ></td>
+							</tr>
+							<!-- <tr>
+								<td>Webside&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="url" id="webside" placeholder=" " title="Diligencia URL Valida  con http://www." required ></td>
+							</tr> -->
+                             <tr>
+								<td>Fecha&nbsp;&nbsp;:&nbsp;</td>
+								<td ><input type="text" name="fecha" placeholder=" " min="2012" title="Diligencia Fecha Valida"  ></td>
+							</tr>
+                           
+							<tr>
+								<td></td>
+								<td><input type="submit" name="boton_env" value="Ingresar"></td>
+							</tr>
+						
+						</table>
+				</form>
+
+		</div>
+
+	</div>
+</div>
+
+	<div class="texto">
+		<p><b>VALOR AGREGADO - MODAL</b></p>
+		<hr width="155px">
+		<br>
+		<h3><a href="javascript:AbrirTelon();">- Pastores</a></h3>
+		<br> 
+		<h1><? echo "bbbbb".$_GET["nombre"];?></h1>
+				
+	</div>	
+	
+</body>
+</html>
