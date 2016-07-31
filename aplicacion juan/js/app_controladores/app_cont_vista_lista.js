@@ -108,7 +108,7 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id              : "1",
         segundo_nivel   : "mujer",
-        url             : "video/video.mp4" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Video/video.mp4" ,                      
         tipo_archivo    : "video",  
         Formato_Archivo : "mp4"  ,                     
         tema            : "alimentos",     
@@ -122,7 +122,7 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id              : "2",
         segundo_nivel   : "mujer",
-        url             : "video/video2.mp4" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Video/video.mp4" ,                      
         tipo_archivo    : "video",    
         Formato_Archivo : "mp4" ,                 
         tema            : "alimentos",   
@@ -136,7 +136,7 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id              : "3",
         segundo_nivel   : "mujer",
-        url             : "video/video3.mp4" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Video/video.mp4" ,                      
         tipo_archivo    : "video",   
         Formato_Archivo : "mp4"     ,              
         tema            : "alimentos",
@@ -150,7 +150,7 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id              : "4",
         segundo_nivel   : "mujer",
-        url             : "video/video3.mp4" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Video/video.mp4" ,                      
         tipo_archivo    : "video",     
         Formato_Archivo : "mp4"  ,               
         tema            : "Vestido",
@@ -164,7 +164,7 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id              : "5",
         segundo_nivel   : "fiestas",
-        url             : "video/video3.mp4" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Video/video.mp4" ,                      
         tipo_archivo    : "video",   
         Formato_Archivo : "mp4" ,               
         tema            : "Vestido",
@@ -179,14 +179,14 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id              : "6",
         segundo_nivel   : "mujer",
-        url             : "audio/audio.mp3" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Audio/audio.mp3" ,                      
         tipo_archivo    : "audio",      
         Formato_Archivo : "mp3"   ,             
         tema            : "Vestido",
         descripcion     : "Descripción vestido Hombre",   
         idioma          : "es" ,                     
         fecha_subida    : "01/04/2016",                      
-        url_imagen      : "img/png/folder2.png" ,
+        url_imagen      : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Audio" ,
       }
 
 
@@ -194,7 +194,7 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id: "7",
         segundo_nivel   : "mujer",
-        url             : "audio/audio3.mp3" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Audio/audio.mp3" ,                      
         tipo_archivo    : "audio",    
         Formato_Archivo : "mp3" ,                
         tema            : "Vestido",
@@ -209,7 +209,7 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id              : "8",
         segundo_nivel   : "mujer",
-        url             : "php/php8.php" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Pdf/pdf.pdf" ,                      
         tipo_archivo    : "documento",     
         Formato_Archivo : "php"  ,            
         tema            : "Vestido",
@@ -224,7 +224,7 @@ angular.module('app_Fernando',['datatables']).controller('ControladorFer', funct
       {
         id              : "9",
         segundo_nivel   : "mujer",
-        url             : "word/doc18.docx" ,                      
+        url             : "C:\Users\luzma\Documents\GitHub\Fernando\aplicacion juan/Word/word.docx" ,                      
         tipo_archivo    : "documento",     
         Formato_Archivo : "docx"  ,            
         tema            : "Vestido",
